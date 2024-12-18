@@ -27,8 +27,8 @@ def get_requirements(file_path:str) -> List[str]:
 setup(
     name='SkimLit',
     version='0.0.1',
-    author='Aditya Paul',
-    author_email='adityapaul.official@outlook.com',
+    author='Farouk Brachemi',
+    author_email='faroukbrachemi@gmail.com',
     packages = find_packages(),
     install_requires=get_requirements('requirements.txt'),
 )
