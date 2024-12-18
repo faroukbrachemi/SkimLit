@@ -1,6 +1,6 @@
-pandas
-numpy
-tensorflow
+pandas==2.2.2
+numpy==1.26.4
+tensorflow==2.16.1
 spacy
 streamlit
 scikit-learn
