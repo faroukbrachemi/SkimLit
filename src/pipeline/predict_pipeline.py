@@ -8,7 +8,7 @@ def split_chars(text):
 
 def import_assets():
     # Load the model
-    model = tf.keras.models.load_model('./assets/SkimLit.keras')
+    model = tf.keras.models.load_model('././assets/SkimLit.keras')
     
     # Load the label encoder
     f = open("assets/labelencoder", "rb")
